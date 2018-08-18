@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29AEAA22127AA2400A9E5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAA12127AA2400A9E5A1 /* AppDelegate.swift */; };
+		F29AEAA42127AA2400A9E5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAA32127AA2400A9E5A1 /* ViewController.swift */; };
+		F29AEAA72127AA2400A9E5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29AEAA52127AA2400A9E5A1 /* Main.storyboard */; };
+		F29AEAA92127AA2500A9E5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29AEAA82127AA2500A9E5A1 /* Assets.xcassets */; };
+		F29AEAAC2127AA2500A9E5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29AEAAA2127AA2500A9E5A1 /* LaunchScreen.storyboard */; };
+		F29AEAB72127AA2500A9E5A1 /* YYFKLibBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAB62127AA2500A9E5A1 /* YYFKLibBoxTests.swift */; };
+		F29AEAC22127AA2500A9E5A1 /* YYFKLibBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAC12127AA2500A9E5A1 /* YYFKLibBoxUITests.swift */; };
+		F29AEAD22127AACC00A9E5A1 /* YYFKBaseCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAD12127AACC00A9E5A1 /* YYFKBaseCTL.swift */; };
+		F29AEAD62127AB4700A9E5A1 /* YYFKHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAD52127AB4700A9E5A1 /* YYFKHeader.swift */; };
+		F29AEAD92127ACAA00A9E5A1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAD82127ACA900A9E5A1 /* SwiftyJSON.swift */; };
+		F29AEADF2127AEAC00A9E5A1 /* YYFKTabBarCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEADE2127AEAC00A9E5A1 /* YYFKTabBarCTL.swift */; };
+		F29AEAE12127B0BF00A9E5A1 /* YYFKFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAE02127B0BF00A9E5A1 /* YYFKFunc.swift */; };
+		F29AEAE52127B3B000A9E5A1 /* YYFK_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAE42127B3B000A9E5A1 /* YYFK_UIView.swift */; };
+		F29AEAE72127BA1600A9E5A1 /* YYFK_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAE62127BA1600A9E5A1 /* YYFK_UIColor.swift */; };
+		F29AEAE92127BDE100A9E5A1 /* YYFK_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAE82127BDE100A9E5A1 /* YYFK_String.swift */; };
+		F29AEAEB2127C74D00A9E5A1 /* YYFKTableViewCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAEA2127C74D00A9E5A1 /* YYFKTableViewCTL.swift */; };
+		F29AEAEE2127C8F800A9E5A1 /* FirstCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAED2127C8F800A9E5A1 /* FirstCTL.swift */; };
+		F29AEAF02127CAF000A9E5A1 /* SecondCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */; };
+		F29AEAF22127EE3A00A9E5A1 /* YYFK_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */; };
+		F29AEAF42127EEF800A9E5A1 /* YYFK_DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29AEAB32127AA2500A9E5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29AEA962127AA2400A9E5A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29AEA9D2127AA2400A9E5A1;
+			remoteInfo = YYFKLibBox;
+		};
+		F29AEABE2127AA2500A9E5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29AEA962127AA2400A9E5A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29AEA9D2127AA2400A9E5A1;
+			remoteInfo = YYFKLibBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F29AEA9E2127AA2400A9E5A1 /* YYFKLibBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYFKLibBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29AEAA12127AA2400A9E5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F29AEAA32127AA2400A9E5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F29AEAA62127AA2400A9E5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F29AEAA82127AA2500A9E5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F29AEAAB2127AA2500A9E5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F29AEAAD2127AA2500A9E5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29AEAB22127AA2500A9E5A1 /* YYFKLibBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYFKLibBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29AEAB62127AA2500A9E5A1 /* YYFKLibBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKLibBoxTests.swift; sourceTree = "<group>"; };
+		F29AEAB82127AA2500A9E5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29AEABD2127AA2500A9E5A1 /* YYFKLibBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYFKLibBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29AEAC12127AA2500A9E5A1 /* YYFKLibBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKLibBoxUITests.swift; sourceTree = "<group>"; };
+		F29AEAC32127AA2500A9E5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29AEAD12127AACC00A9E5A1 /* YYFKBaseCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKBaseCTL.swift; sourceTree = "<group>"; };
+		F29AEAD52127AB4700A9E5A1 /* YYFKHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKHeader.swift; sourceTree = "<group>"; };
+		F29AEAD82127ACA900A9E5A1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F29AEADE2127AEAC00A9E5A1 /* YYFKTabBarCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKTabBarCTL.swift; sourceTree = "<group>"; };
+		F29AEAE02127B0BF00A9E5A1 /* YYFKFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKFunc.swift; sourceTree = "<group>"; };
+		F29AEAE42127B3B000A9E5A1 /* YYFK_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_UIView.swift; sourceTree = "<group>"; };
+		F29AEAE62127BA1600A9E5A1 /* YYFK_UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_UIColor.swift; sourceTree = "<group>"; };
+		F29AEAE82127BDE100A9E5A1 /* YYFK_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_String.swift; sourceTree = "<group>"; };
+		F29AEAEA2127C74D00A9E5A1 /* YYFKTableViewCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKTableViewCTL.swift; sourceTree = "<group>"; };
+		F29AEAED2127C8F800A9E5A1 /* FirstCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCTL.swift; sourceTree = "<group>"; };
+		F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCTL.swift; sourceTree = "<group>"; };
+		F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_Date.swift; sourceTree = "<group>"; };
+		F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_DateClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29AEA9B2127AA2400A9E5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29AEAAF2127AA2500A9E5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29AEABA2127AA2500A9E5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29AEA952127AA2400A9E5A1 = {
+			isa = PBXGroup;
+			children = (
+				F29AEAA02127AA2400A9E5A1 /* YYFKLibBox */,
+				F29AEAB52127AA2500A9E5A1 /* YYFKLibBoxTests */,
+				F29AEAC02127AA2500A9E5A1 /* YYFKLibBoxUITests */,
+				F29AEA9F2127AA2400A9E5A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F29AEA9F2127AA2400A9E5A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEA9E2127AA2400A9E5A1 /* YYFKLibBox.app */,
+				F29AEAB22127AA2500A9E5A1 /* YYFKLibBoxTests.xctest */,
+				F29AEABD2127AA2500A9E5A1 /* YYFKLibBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29AEAA02127AA2400A9E5A1 /* YYFKLibBox */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEACF2127AA2A00A9E5A1 /* YYFKLibBox */,
+				F29AEAEC2127C8BE00A9E5A1 /* TestDome */,
+				F29AEAA12127AA2400A9E5A1 /* AppDelegate.swift */,
+				F29AEAA32127AA2400A9E5A1 /* ViewController.swift */,
+				F29AEAA52127AA2400A9E5A1 /* Main.storyboard */,
+				F29AEAA82127AA2500A9E5A1 /* Assets.xcassets */,
+				F29AEAAA2127AA2500A9E5A1 /* LaunchScreen.storyboard */,
+				F29AEAAD2127AA2500A9E5A1 /* Info.plist */,
+			);
+			path = YYFKLibBox;
+			sourceTree = "<group>";
+		};
+		F29AEAB52127AA2500A9E5A1 /* YYFKLibBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEAB62127AA2500A9E5A1 /* YYFKLibBoxTests.swift */,
+				F29AEAB82127AA2500A9E5A1 /* Info.plist */,
+			);
+			path = YYFKLibBoxTests;
+			sourceTree = "<group>";
+		};
+		F29AEAC02127AA2500A9E5A1 /* YYFKLibBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEAC12127AA2500A9E5A1 /* YYFKLibBoxUITests.swift */,
+				F29AEAC32127AA2500A9E5A1 /* Info.plist */,
+			);
+			path = YYFKLibBoxUITests;
+			sourceTree = "<group>";
+		};
+		F29AEACF2127AA2A00A9E5A1 /* YYFKLibBox */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEAD52127AB4700A9E5A1 /* YYFKHeader.swift */,
+				F29AEAD72127AC8C00A9E5A1 /* Lib */,
+				F29AEAD02127AA8A00A9E5A1 /* BaseCTL */,
+			);
+			path = YYFKLibBox;
+			sourceTree = "<group>";
+		};
+		F29AEAD02127AA8A00A9E5A1 /* BaseCTL */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEAD12127AACC00A9E5A1 /* YYFKBaseCTL.swift */,
+				F29AEADE2127AEAC00A9E5A1 /* YYFKTabBarCTL.swift */,
+				F29AEAEA2127C74D00A9E5A1 /* YYFKTableViewCTL.swift */,
+			);
+			path = BaseCTL;
+			sourceTree = "<group>";
+		};
+		F29AEAD72127AC8C00A9E5A1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEAD82127ACA900A9E5A1 /* SwiftyJSON.swift */,
+				F29AEAE02127B0BF00A9E5A1 /* YYFKFunc.swift */,
+				F29AEAE42127B3B000A9E5A1 /* YYFK_UIView.swift */,
+				F29AEAE62127BA1600A9E5A1 /* YYFK_UIColor.swift */,
+				F29AEAE82127BDE100A9E5A1 /* YYFK_String.swift */,
+				F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */,
+				F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F29AEAEC2127C8BE00A9E5A1 /* TestDome */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEAED2127C8F800A9E5A1 /* FirstCTL.swift */,
+				F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */,
+			);
+			path = TestDome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29AEA9D2127AA2400A9E5A1 /* YYFKLibBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29AEAC62127AA2500A9E5A1 /* Build configuration list for PBXNativeTarget "YYFKLibBox" */;
+			buildPhases = (
+				F29AEA9A2127AA2400A9E5A1 /* Sources */,
+				F29AEA9B2127AA2400A9E5A1 /* Frameworks */,
+				F29AEA9C2127AA2400A9E5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYFKLibBox;
+			productName = YYFKLibBox;
+			productReference = F29AEA9E2127AA2400A9E5A1 /* YYFKLibBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F29AEAB12127AA2500A9E5A1 /* YYFKLibBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29AEAC92127AA2500A9E5A1 /* Build configuration list for PBXNativeTarget "YYFKLibBoxTests" */;
+			buildPhases = (
+				F29AEAAE2127AA2500A9E5A1 /* Sources */,
+				F29AEAAF2127AA2500A9E5A1 /* Frameworks */,
+				F29AEAB02127AA2500A9E5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29AEAB42127AA2500A9E5A1 /* PBXTargetDependency */,
+			);
+			name = YYFKLibBoxTests;
+			productName = YYFKLibBoxTests;
+			productReference = F29AEAB22127AA2500A9E5A1 /* YYFKLibBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F29AEABC2127AA2500A9E5A1 /* YYFKLibBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29AEACC2127AA2500A9E5A1 /* Build configuration list for PBXNativeTarget "YYFKLibBoxUITests" */;
+			buildPhases = (
+				F29AEAB92127AA2500A9E5A1 /* Sources */,
+				F29AEABA2127AA2500A9E5A1 /* Frameworks */,
+				F29AEABB2127AA2500A9E5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29AEABF2127AA2500A9E5A1 /* PBXTargetDependency */,
+			);
+			name = YYFKLibBoxUITests;
+			productName = YYFKLibBoxUITests;
+			productReference = F29AEABD2127AA2500A9E5A1 /* YYFKLibBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29AEA962127AA2400A9E5A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YYFK;
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Ken;
+				TargetAttributes = {
+					F29AEA9D2127AA2400A9E5A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F29AEAB12127AA2500A9E5A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F29AEA9D2127AA2400A9E5A1;
+					};
+					F29AEABC2127AA2500A9E5A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F29AEA9D2127AA2400A9E5A1;
+					};
+				};
+			};
+			buildConfigurationList = F29AEA992127AA2400A9E5A1 /* Build configuration list for PBXProject "YYFKLibBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29AEA952127AA2400A9E5A1;
+			productRefGroup = F29AEA9F2127AA2400A9E5A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29AEA9D2127AA2400A9E5A1 /* YYFKLibBox */,
+				F29AEAB12127AA2500A9E5A1 /* YYFKLibBoxTests */,
+				F29AEABC2127AA2500A9E5A1 /* YYFKLibBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29AEA9C2127AA2400A9E5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29AEAAC2127AA2500A9E5A1 /* LaunchScreen.storyboard in Resources */,
+				F29AEAA92127AA2500A9E5A1 /* Assets.xcassets in Resources */,
+				F29AEAA72127AA2400A9E5A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29AEAB02127AA2500A9E5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29AEABB2127AA2500A9E5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29AEA9A2127AA2400A9E5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29AEAA42127AA2400A9E5A1 /* ViewController.swift in Sources */,
+				F29AEAD22127AACC00A9E5A1 /* YYFKBaseCTL.swift in Sources */,
+				F29AEADF2127AEAC00A9E5A1 /* YYFKTabBarCTL.swift in Sources */,
+				F29AEAF02127CAF000A9E5A1 /* SecondCTL.swift in Sources */,
+				F29AEAA22127AA2400A9E5A1 /* AppDelegate.swift in Sources */,
+				F29AEAEE2127C8F800A9E5A1 /* FirstCTL.swift in Sources */,
+				F29AEAD92127ACAA00A9E5A1 /* SwiftyJSON.swift in Sources */,
+				F29AEAE72127BA1600A9E5A1 /* YYFK_UIColor.swift in Sources */,
+				F29AEAEB2127C74D00A9E5A1 /* YYFKTableViewCTL.swift in Sources */,
+				F29AEAD62127AB4700A9E5A1 /* YYFKHeader.swift in Sources */,
+				F29AEAE12127B0BF00A9E5A1 /* YYFKFunc.swift in Sources */,
+				F29AEAE52127B3B000A9E5A1 /* YYFK_UIView.swift in Sources */,
+				F29AEAF42127EEF800A9E5A1 /* YYFK_DateClass.swift in Sources */,
+				F29AEAF22127EE3A00A9E5A1 /* YYFK_Date.swift in Sources */,
+				F29AEAE92127BDE100A9E5A1 /* YYFK_String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29AEAAE2127AA2500A9E5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29AEAB72127AA2500A9E5A1 /* YYFKLibBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29AEAB92127AA2500A9E5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29AEAC22127AA2500A9E5A1 /* YYFKLibBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29AEAB42127AA2500A9E5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29AEA9D2127AA2400A9E5A1 /* YYFKLibBox */;
+			targetProxy = F29AEAB32127AA2500A9E5A1 /* PBXContainerItemProxy */;
+		};
+		F29AEABF2127AA2500A9E5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29AEA9D2127AA2400A9E5A1 /* YYFKLibBox */;
+			targetProxy = F29AEABE2127AA2500A9E5A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F29AEAA52127AA2400A9E5A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29AEAA62127AA2400A9E5A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F29AEAAA2127AA2500A9E5A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29AEAAB2127AA2500A9E5A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29AEAC42127AA2500A9E5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F29AEAC52127AA2500A9E5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29AEAC72127AA2500A9E5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = YYFKLibBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29AEAC82127AA2500A9E5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = YYFKLibBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F29AEACA2127AA2500A9E5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = YYFKLibBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYFKLibBox.app/YYFKLibBox";
+			};
+			name = Debug;
+		};
+		F29AEACB2127AA2500A9E5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = YYFKLibBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYFKLibBox.app/YYFKLibBox";
+			};
+			name = Release;
+		};
+		F29AEACD2127AA2500A9E5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = YYFKLibBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYFKLibBox;
+			};
+			name = Debug;
+		};
+		F29AEACE2127AA2500A9E5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = YYFKLibBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYFKLibBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29AEA992127AA2400A9E5A1 /* Build configuration list for PBXProject "YYFKLibBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29AEAC42127AA2500A9E5A1 /* Debug */,
+				F29AEAC52127AA2500A9E5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29AEAC62127AA2500A9E5A1 /* Build configuration list for PBXNativeTarget "YYFKLibBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29AEAC72127AA2500A9E5A1 /* Debug */,
+				F29AEAC82127AA2500A9E5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29AEAC92127AA2500A9E5A1 /* Build configuration list for PBXNativeTarget "YYFKLibBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29AEACA2127AA2500A9E5A1 /* Debug */,
+				F29AEACB2127AA2500A9E5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29AEACC2127AA2500A9E5A1 /* Build configuration list for PBXNativeTarget "YYFKLibBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29AEACD2127AA2500A9E5A1 /* Debug */,
+				F29AEACE2127AA2500A9E5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29AEA962127AA2400A9E5A1 /* Project object */;
+}
