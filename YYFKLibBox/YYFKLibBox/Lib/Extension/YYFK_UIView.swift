@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+@objc extension UIView {
     
     // MARK: - 常用位置属性
     public var left:CGFloat {

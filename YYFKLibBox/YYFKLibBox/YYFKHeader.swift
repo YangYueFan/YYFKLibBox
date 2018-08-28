@@ -13,9 +13,9 @@
 let YYFScreenWidth : CGFloat                = UIScreen.main.bounds.size.width
 let YYFScreenHeight : CGFloat               = UIScreen.main.bounds.size.height
 
-let YYFSafeTopHeight : CGFloat              = (YYFScreenWidth   >= 812) ? 88.0 : 64.0
+let YYFSafeNavHeight : CGFloat              = (YYFScreenHeight  >= 812) ? 88.0 : 64.0
 let YYFSafeBottomHeight : CGFloat           = (YYFScreenHeight  >= 812) ? 34.0 : 0.0
-
+let YYFTabbarHeight : CGFloat               = YYFSafeBottomHeight + 49
 
 
 // 统一存放Block定义

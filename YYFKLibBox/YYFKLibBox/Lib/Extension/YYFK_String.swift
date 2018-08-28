@@ -141,7 +141,41 @@ extension String {
         return peopleName
     }
     
-
     
+    
+    private func getNormalStrSize(str: String? = nil, attriStr: NSMutableAttributedString? = nil, font: CGFloat, w: CGFloat, h: CGFloat) -> CGSize {
+        if str != nil {
+            let strSize = (str! as NSString).boundingRect(with: CGSize(width: w, height: h), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: font)], context: nil).size
+            return strSize
+        }
+        
+        if attriStr != nil {
+            let strSize = attriStr!.boundingRect(with: CGSize(width: w, height: h), options: .usesLineFragmentOrigin, context: nil).size
+            return strSize
+        }
+        
+        return CGSize.zero
+        
+    }
+    
+    /**获取富文本字符串高度H*/
+    func getAttributedStrH(attriStr: NSMutableAttributedString, strFont: CGFloat, w: CGFloat) -> CGFloat {
+        return getNormalStrSize(attriStr: attriStr, font: strFont, w: w, h: CGFloat.greatestFiniteMagnitude).height
+    }
+    
+    /**获取富文本字符串宽度W*/
+    func getAttributedStrW(attriStr: NSMutableAttributedString, strFont: CGFloat, h: CGFloat) -> CGFloat {
+        return getNormalStrSize(attriStr: attriStr, font: strFont, w: CGFloat.greatestFiniteMagnitude, h: h).width
+    }
+    
+    /**获取字符串高度H*/
+    func getNormalStrH(strFont: CGFloat, w: CGFloat) -> CGFloat {
+        return getNormalStrSize(str:self, font: strFont, w: w, h: CGFloat.greatestFiniteMagnitude).height
+    }
+
+    /**获取字符串宽度W*/
+    func getNormalStrW( strFont: CGFloat, h: CGFloat) -> CGFloat {
+        return getNormalStrSize(str: self, font: strFont, w: CGFloat.greatestFiniteMagnitude, h: h).width
+    }
 
 }

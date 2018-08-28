@@ -58,7 +58,6 @@ class YYFKTabBarCTL: UITabBarController {
             ctl.navigationItem.title = titles[index]
             let defaultImage = defaultImages[index].withRenderingMode(UIImageRenderingMode.alwaysOriginal)
             let selectedImage = selectedImages[index].withRenderingMode(UIImageRenderingMode.alwaysOriginal)
-            
             let tabBarItem = UITabBarItem.init(title: titles[index],
                                                image: defaultImage,
                                                selectedImage: selectedImage)

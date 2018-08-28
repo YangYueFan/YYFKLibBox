@@ -76,7 +76,9 @@ extension UIColor {
      - returns : 颜色
      */
     static func withRGBA(_ red:CGFloat, _ green:CGFloat, _ blue:CGFloat, _ alpha:CGFloat) -> UIColor {
-        return UIColor(red: red / 255, green: green / 255, blue: blue / 255, alpha: alpha)
+        return UIColor(red: red / 255.0, green: green / 255.0, blue: blue / 255.0, alpha: alpha)
     }
+    
+    
     
 }

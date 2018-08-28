@@ -27,6 +27,10 @@
 		F29AEAF02127CAF000A9E5A1 /* SecondCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */; };
 		F29AEAF22127EE3A00A9E5A1 /* YYFK_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */; };
 		F29AEAF42127EEF800A9E5A1 /* YYFK_DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */; };
+		F29AEB802128028D00A9E5A1 /* LKSegmentItemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AEB7F2128028D00A9E5A1 /* LKSegmentItemBar.m */; };
+		F2C651532134D959006D496C /* YYFKPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C651522134D959006D496C /* YYFKPageControl.swift */; };
+		F2C6516321352428006D496C /* ThirdCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6516221352428006D496C /* ThirdCTL.swift */; };
+		F2C6516521352496006D496C /* YYFKCustomSegmentBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6516421352496006D496C /* YYFKCustomSegmentBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,12 @@
 		F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCTL.swift; sourceTree = "<group>"; };
 		F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_Date.swift; sourceTree = "<group>"; };
 		F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_DateClass.swift; sourceTree = "<group>"; };
+		F29AEB792128025E00A9E5A1 /* YYFKLibBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYFKLibBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		F29AEB7E2128028D00A9E5A1 /* LKSegmentItemBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSegmentItemBar.h; sourceTree = "<group>"; };
+		F29AEB7F2128028D00A9E5A1 /* LKSegmentItemBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSegmentItemBar.m; sourceTree = "<group>"; };
+		F2C651522134D959006D496C /* YYFKPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKPageControl.swift; sourceTree = "<group>"; };
+		F2C6516221352428006D496C /* ThirdCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCTL.swift; sourceTree = "<group>"; };
+		F2C6516421352496006D496C /* YYFKCustomSegmentBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKCustomSegmentBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,7 @@
 		F29AEAA02127AA2400A9E5A1 /* YYFKLibBox */ = {
 			isa = PBXGroup;
 			children = (
+				F29AEB792128025E00A9E5A1 /* YYFKLibBox-Bridging-Header.h */,
 				F29AEACF2127AA2A00A9E5A1 /* YYFKLibBox */,
 				F29AEAEC2127C8BE00A9E5A1 /* TestDome */,
 				F29AEAA12127AA2400A9E5A1 /* AppDelegate.swift */,
@@ -158,6 +169,7 @@
 			children = (
 				F29AEAD52127AB4700A9E5A1 /* YYFKHeader.swift */,
 				F29AEAD72127AC8C00A9E5A1 /* Lib */,
+				F2C651542134D965006D496C /* CustomView */,
 				F29AEAD02127AA8A00A9E5A1 /* BaseCTL */,
 			);
 			path = YYFKLibBox;
@@ -176,13 +188,10 @@
 		F29AEAD72127AC8C00A9E5A1 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				F2C6514E2134D8F8006D496C /* Extension */,
+				F29AEB7D2128028D00A9E5A1 /* SegmentBar */,
 				F29AEAD82127ACA900A9E5A1 /* SwiftyJSON.swift */,
 				F29AEAE02127B0BF00A9E5A1 /* YYFKFunc.swift */,
-				F29AEAE42127B3B000A9E5A1 /* YYFK_UIView.swift */,
-				F29AEAE62127BA1600A9E5A1 /* YYFK_UIColor.swift */,
-				F29AEAE82127BDE100A9E5A1 /* YYFK_String.swift */,
-				F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */,
-				F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -192,8 +201,39 @@
 			children = (
 				F29AEAED2127C8F800A9E5A1 /* FirstCTL.swift */,
 				F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */,
+				F2C6516221352428006D496C /* ThirdCTL.swift */,
 			);
 			path = TestDome;
+			sourceTree = "<group>";
+		};
+		F29AEB7D2128028D00A9E5A1 /* SegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEB7E2128028D00A9E5A1 /* LKSegmentItemBar.h */,
+				F29AEB7F2128028D00A9E5A1 /* LKSegmentItemBar.m */,
+			);
+			path = SegmentBar;
+			sourceTree = "<group>";
+		};
+		F2C6514E2134D8F8006D496C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F29AEAE42127B3B000A9E5A1 /* YYFK_UIView.swift */,
+				F29AEAE62127BA1600A9E5A1 /* YYFK_UIColor.swift */,
+				F29AEAE82127BDE100A9E5A1 /* YYFK_String.swift */,
+				F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */,
+				F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F2C651542134D965006D496C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F2C651522134D959006D496C /* YYFKPageControl.swift */,
+				F2C6516421352496006D496C /* YYFKCustomSegmentBar.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +305,7 @@
 				TargetAttributes = {
 					F29AEA9D2127AA2400A9E5A1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					F29AEAB12127AA2500A9E5A1 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -328,9 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C6516521352496006D496C /* YYFKCustomSegmentBar.swift in Sources */,
 				F29AEAA42127AA2400A9E5A1 /* ViewController.swift in Sources */,
 				F29AEAD22127AACC00A9E5A1 /* YYFKBaseCTL.swift in Sources */,
 				F29AEADF2127AEAC00A9E5A1 /* YYFKTabBarCTL.swift in Sources */,
+				F2C6516321352428006D496C /* ThirdCTL.swift in Sources */,
 				F29AEAF02127CAF000A9E5A1 /* SecondCTL.swift in Sources */,
 				F29AEAA22127AA2400A9E5A1 /* AppDelegate.swift in Sources */,
 				F29AEAEE2127C8F800A9E5A1 /* FirstCTL.swift in Sources */,
@@ -341,6 +384,8 @@
 				F29AEAE12127B0BF00A9E5A1 /* YYFKFunc.swift in Sources */,
 				F29AEAE52127B3B000A9E5A1 /* YYFK_UIView.swift in Sources */,
 				F29AEAF42127EEF800A9E5A1 /* YYFK_DateClass.swift in Sources */,
+				F2C651532134D959006D496C /* YYFKPageControl.swift in Sources */,
+				F29AEB802128028D00A9E5A1 /* LKSegmentItemBar.m in Sources */,
 				F29AEAF22127EE3A00A9E5A1 /* YYFK_Date.swift in Sources */,
 				F29AEAE92127BDE100A9E5A1 /* YYFK_String.swift in Sources */,
 			);
@@ -515,15 +560,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65X7FVM522;
 				INFOPLIST_FILE = YYFKLibBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YYFKLibBox/YYFKLibBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -533,15 +582,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65X7FVM522;
 				INFOPLIST_FILE = YYFKLibBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ken.YYFKLibBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YYFKLibBox/YYFKLibBox-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

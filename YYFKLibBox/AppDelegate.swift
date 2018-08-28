@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        window?.rootViewController = YYFKTabBarCTL.initYYFKTabBar(titles: ["首页","我的"], defaultImages: [#imageLiteral(resourceName: "icon2"),#imageLiteral(resourceName: "icon10")], vcNameStrs: ["FirstCTL","SecondCTL"], selectedImages: [#imageLiteral(resourceName: "icon9"),#imageLiteral(resourceName: "icon6")], selectedIndex: 0, animation: true)
+        window?.rootViewController = YYFKTabBarCTL.initYYFKTabBar(titles: ["首页","我的","科技"], defaultImages: [#imageLiteral(resourceName: "icon2"),#imageLiteral(resourceName: "icon10"),#imageLiteral(resourceName: "kj_5")], vcNameStrs: ["FirstCTL","SecondCTL","ThirdCTL"], selectedImages: [#imageLiteral(resourceName: "icon9"),#imageLiteral(resourceName: "icon6"),#imageLiteral(resourceName: "kj_1")], selectedIndex: 0, animation: true)
         
         
         return true

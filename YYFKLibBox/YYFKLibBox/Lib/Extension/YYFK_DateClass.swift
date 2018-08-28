@@ -187,6 +187,15 @@ class YYFK_DateClass: NSObject {
         let date = Date(timeIntervalSince1970: timeSta)
         return dfmatter.string(from: date)
     }
+    //MARK:将时间戳转换为时分秒
+    static func timeStampToHHMMSS(_ timeStamp:TimeInterval)->String {
+        //        let string = NSString(string: timeStamp)
+        //        let timeSta:TimeInterval = string.doubleValue
+        let dfmatter = DateFormatter()
+        dfmatter.dateFormat="HH:mm:ss"
+        let date = Date(timeIntervalSince1970: timeStamp)
+        return dfmatter.string(from: date)
+    }
     
     //MARK: 获取系统的当前时间戳
     static func getStamp()->Int{

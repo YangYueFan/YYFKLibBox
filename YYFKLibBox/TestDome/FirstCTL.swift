@@ -21,7 +21,6 @@ class FirstCTL: YYFKTableViewCTL ,UITableViewDelegate,UITableViewDataSource{
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
     }
     
     // MARK: - UITableViewDelegate
