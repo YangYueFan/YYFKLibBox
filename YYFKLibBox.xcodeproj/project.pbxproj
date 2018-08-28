@@ -27,7 +27,6 @@
 		F29AEAF02127CAF000A9E5A1 /* SecondCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */; };
 		F29AEAF22127EE3A00A9E5A1 /* YYFK_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */; };
 		F29AEAF42127EEF800A9E5A1 /* YYFK_DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */; };
-		F29AEB802128028D00A9E5A1 /* LKSegmentItemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AEB7F2128028D00A9E5A1 /* LKSegmentItemBar.m */; };
 		F2C651532134D959006D496C /* YYFKPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C651522134D959006D496C /* YYFKPageControl.swift */; };
 		F2C6516321352428006D496C /* ThirdCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6516221352428006D496C /* ThirdCTL.swift */; };
 		F2C6516521352496006D496C /* YYFKCustomSegmentBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6516421352496006D496C /* YYFKCustomSegmentBar.swift */; };
@@ -78,8 +77,6 @@
 		F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_Date.swift; sourceTree = "<group>"; };
 		F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_DateClass.swift; sourceTree = "<group>"; };
 		F29AEB792128025E00A9E5A1 /* YYFKLibBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYFKLibBox-Bridging-Header.h"; sourceTree = "<group>"; };
-		F29AEB7E2128028D00A9E5A1 /* LKSegmentItemBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSegmentItemBar.h; sourceTree = "<group>"; };
-		F29AEB7F2128028D00A9E5A1 /* LKSegmentItemBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSegmentItemBar.m; sourceTree = "<group>"; };
 		F2C651522134D959006D496C /* YYFKPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKPageControl.swift; sourceTree = "<group>"; };
 		F2C6516221352428006D496C /* ThirdCTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCTL.swift; sourceTree = "<group>"; };
 		F2C6516421352496006D496C /* YYFKCustomSegmentBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFKCustomSegmentBar.swift; sourceTree = "<group>"; };
@@ -189,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				F2C6514E2134D8F8006D496C /* Extension */,
-				F29AEB7D2128028D00A9E5A1 /* SegmentBar */,
 				F29AEAD82127ACA900A9E5A1 /* SwiftyJSON.swift */,
 				F29AEAE02127B0BF00A9E5A1 /* YYFKFunc.swift */,
 			);
@@ -204,15 +200,6 @@
 				F2C6516221352428006D496C /* ThirdCTL.swift */,
 			);
 			path = TestDome;
-			sourceTree = "<group>";
-		};
-		F29AEB7D2128028D00A9E5A1 /* SegmentBar */ = {
-			isa = PBXGroup;
-			children = (
-				F29AEB7E2128028D00A9E5A1 /* LKSegmentItemBar.h */,
-				F29AEB7F2128028D00A9E5A1 /* LKSegmentItemBar.m */,
-			);
-			path = SegmentBar;
 			sourceTree = "<group>";
 		};
 		F2C6514E2134D8F8006D496C /* Extension */ = {
@@ -385,7 +372,6 @@
 				F29AEAE52127B3B000A9E5A1 /* YYFK_UIView.swift in Sources */,
 				F29AEAF42127EEF800A9E5A1 /* YYFK_DateClass.swift in Sources */,
 				F2C651532134D959006D496C /* YYFKPageControl.swift in Sources */,
-				F29AEB802128028D00A9E5A1 /* LKSegmentItemBar.m in Sources */,
 				F29AEAF22127EE3A00A9E5A1 /* YYFK_Date.swift in Sources */,
 				F29AEAE92127BDE100A9E5A1 /* YYFK_String.swift in Sources */,
 			);
