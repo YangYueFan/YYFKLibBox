@@ -18,26 +18,35 @@ class FirstCTL: YYFKTableViewCTL ,UITableViewDelegate,UITableViewDataSource{
         self.myTableView.delegate = self
         self.myTableView.dataSource = self
         
-        let label = YYFKGraduatLabel.initLabel(frame: CGRect.init(x: 0, y: 100, width: 100, height: 35),
-                                           colors: [UIColor.orange.cgColor,
-                                                    UIColor.red.cgColor
+        self.loadTitleView()
+        
+        
+    }
+    
+    func loadTitleView() {
+        if self.navigationController != nil {
+            
+            let label = YYFKGraduatLabel.initLabel(frame: CGRect.init(x: 0, y: 100, width: 150, height: 35),
+                                                   colors: [UIColor.orange.cgColor,
+                                                            UIColor.red.cgColor
                                                     ,UIColor.purple.cgColor],
-                                           text: "这是测试文字")
-        self.view.addSubview(label)
-        label.tapBlock = { (text) in
-            print(text)
+                                                   text: "这是测试渐变文字")
+            self.view.addSubview(label)
+            label.tapBlock = { (text) in
+                print(text)
+            }
+            label.adjustsFontSizeToFitWidth = true
+            label.textAlignment = .center
+            label.runAnimation(startLoctions: [NSNumber.init(value: 0.1),
+                                               NSNumber.init(value: 0.1),
+                                               NSNumber.init(value: 0.8)],
+                               endLoctions: [NSNumber.init(value: 0.8),
+                                             NSNumber.init(value: 0.1),
+                                             NSNumber.init(value: 0.1)],
+                               duration: 3.0,
+                               repeatCount: 9999)
+            self.navigationItem.titleView = label
         }
-        label.runAnimation(startLoctions: [NSNumber.init(value: 0.0),
-                                           NSNumber.init(value: 0.1),
-                                           NSNumber.init(value: 1.0)],
-                           endLoctions: [NSNumber.init(value: 0.9),
-                                         NSNumber.init(value: 0.1),
-                                         NSNumber.init(value: 0.0)],
-                           duration: 3.0,
-                           repeatCount: 9999)
-        self.navigationItem.titleView = label
-        
-        
     }
 
     override func viewWillAppear(_ animated: Bool) {

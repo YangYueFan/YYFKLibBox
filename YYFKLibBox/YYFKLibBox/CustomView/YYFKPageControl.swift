@@ -143,5 +143,10 @@ class YYFKPageControl: UIView ,UIScrollViewDelegate,YYFKCustomSegmentBarDelegate
         }
     }
     
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if scrollView == self.contentScrollView {
+            self.segmentBar.segmentLine?.left = scrollView.contentOffset.x/CGFloat(self.segmentBar.items.count)
+        }
+    }
 
 }

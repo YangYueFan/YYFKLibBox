@@ -29,6 +29,7 @@ class YYFKGraduatLabel: UIView {
     var textAlignment : NSTextAlignment = .left {
         didSet{
             self.label.textAlignment = textAlignment
+            self.loadGraduatLayer()
         }
     }
     var textColor = UIColor.black {
@@ -44,6 +45,7 @@ class YYFKGraduatLabel: UIView {
     var adjustsFontSizeToFitWidth = false {
         didSet{
             self.label.adjustsFontSizeToFitWidth = adjustsFontSizeToFitWidth
+            self.loadGraduatLayer()
         }
     }
     var numberOfLines : Int = 1 {
@@ -113,7 +115,7 @@ class YYFKGraduatLabel: UIView {
     }
     
     func runAnimation(startLoctions:[NSNumber],endLoctions:[NSNumber],duration:CFTimeInterval ,repeatCount:Float) {
-        
+        self.loadGraduatLayer()
         self.gradientLayer?.removeAnimation(forKey: "runAnimation")
         self.gradientLayer?.locations = startLoctions
         
