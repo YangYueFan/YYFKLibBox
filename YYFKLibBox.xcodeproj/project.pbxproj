@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2369F09213D1D0C004A5CC8 /* YYFKGraduatLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2369F08213D1D0C004A5CC8 /* YYFKGraduatLabel.swift */; };
+		F27544BF213A6A870041EFA8 /* YYFK_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27544BE213A6A870041EFA8 /* YYFK_Label.swift */; };
 		F29AEAA22127AA2400A9E5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAA12127AA2400A9E5A1 /* AppDelegate.swift */; };
 		F29AEAA42127AA2400A9E5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AEAA32127AA2400A9E5A1 /* ViewController.swift */; };
 		F29AEAA72127AA2400A9E5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29AEAA52127AA2400A9E5A1 /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2369F08213D1D0C004A5CC8 /* YYFKGraduatLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYFKGraduatLabel.swift; sourceTree = "<group>"; };
+		F27544BE213A6A870041EFA8 /* YYFK_Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYFK_Label.swift; sourceTree = "<group>"; };
 		F29AEA9E2127AA2400A9E5A1 /* YYFKLibBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYFKLibBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29AEAA12127AA2400A9E5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29AEAA32127AA2400A9E5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +111,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F27544BD213A69D90041EFA8 /* SubCTL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubCTL;
+			sourceTree = "<group>";
+		};
 		F29AEA952127AA2400A9E5A1 = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +206,7 @@
 		F29AEAEC2127C8BE00A9E5A1 /* TestDome */ = {
 			isa = PBXGroup;
 			children = (
+				F27544BD213A69D90041EFA8 /* SubCTL */,
 				F29AEAED2127C8F800A9E5A1 /* FirstCTL.swift */,
 				F29AEAEF2127CAF000A9E5A1 /* SecondCTL.swift */,
 				F2C6516221352428006D496C /* ThirdCTL.swift */,
@@ -210,6 +222,7 @@
 				F29AEAE82127BDE100A9E5A1 /* YYFK_String.swift */,
 				F29AEAF12127EE3A00A9E5A1 /* YYFK_Date.swift */,
 				F29AEAF32127EEF800A9E5A1 /* YYFK_DateClass.swift */,
+				F27544BE213A6A870041EFA8 /* YYFK_Label.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -217,6 +230,7 @@
 		F2C651542134D965006D496C /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				F2369F08213D1D0C004A5CC8 /* YYFKGraduatLabel.swift */,
 				F2C651522134D959006D496C /* YYFKPageControl.swift */,
 				F2C6516421352496006D496C /* YYFKCustomSegmentBar.swift */,
 			);
@@ -362,6 +376,7 @@
 				F29AEADF2127AEAC00A9E5A1 /* YYFKTabBarCTL.swift in Sources */,
 				F2C6516321352428006D496C /* ThirdCTL.swift in Sources */,
 				F29AEAF02127CAF000A9E5A1 /* SecondCTL.swift in Sources */,
+				F27544BF213A6A870041EFA8 /* YYFK_Label.swift in Sources */,
 				F29AEAA22127AA2400A9E5A1 /* AppDelegate.swift in Sources */,
 				F29AEAEE2127C8F800A9E5A1 /* FirstCTL.swift in Sources */,
 				F29AEAD92127ACAA00A9E5A1 /* SwiftyJSON.swift in Sources */,
@@ -371,6 +386,7 @@
 				F29AEAE12127B0BF00A9E5A1 /* YYFKFunc.swift in Sources */,
 				F29AEAE52127B3B000A9E5A1 /* YYFK_UIView.swift in Sources */,
 				F29AEAF42127EEF800A9E5A1 /* YYFK_DateClass.swift in Sources */,
+				F2369F09213D1D0C004A5CC8 /* YYFKGraduatLabel.swift in Sources */,
 				F2C651532134D959006D496C /* YYFKPageControl.swift in Sources */,
 				F29AEAF22127EE3A00A9E5A1 /* YYFK_Date.swift in Sources */,
 				F29AEAE92127BDE100A9E5A1 /* YYFK_String.swift in Sources */,

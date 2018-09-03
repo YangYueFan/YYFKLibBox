@@ -18,9 +18,34 @@ class FirstCTL: YYFKTableViewCTL ,UITableViewDelegate,UITableViewDataSource{
         self.myTableView.delegate = self
         self.myTableView.dataSource = self
         
+        let label = YYFKGraduatLabel.initLabel(frame: CGRect.init(x: 0, y: 100, width: 100, height: 35),
+                                           colors: [UIColor.orange.cgColor,
+                                                    UIColor.red.cgColor
+                                                    ,UIColor.purple.cgColor],
+                                           text: "这是测试文字")
+        self.view.addSubview(label)
+        label.tapBlock = { (text) in
+            print(text)
+        }
+        label.runAnimation(startLoctions: [NSNumber.init(value: 0.0),
+                                           NSNumber.init(value: 0.1),
+                                           NSNumber.init(value: 1.0)],
+                           endLoctions: [NSNumber.init(value: 0.9),
+                                         NSNumber.init(value: 0.1),
+                                         NSNumber.init(value: 0.0)],
+                           duration: 3.0,
+                           repeatCount: 9999)
+        self.navigationItem.titleView = label
+        
+        
     }
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
     
     // MARK: - UITableViewDelegate
@@ -34,7 +59,9 @@ class FirstCTL: YYFKTableViewCTL ,UITableViewDelegate,UITableViewDataSource{
         var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         if cell == nil {
             cell = UITableViewCell.init(style: .default, reuseIdentifier:  "Cell")
+            
         }
+        
         return cell!
     }
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
